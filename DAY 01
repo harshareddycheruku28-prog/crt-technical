@@ -1,0 +1,87 @@
+# ==========================================
+# CRT Technical Training - Day 01
+# Topic: Python Operators
+# ==========================================
+
+# 1. Arithmetic Operators
+
+a = 10
+b = 3
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+
+# 2. Comparison Operators
+
+print("Equal:", a == b)
+print("Not Equal:", a != b)
+print("Greater Than:", a > b)
+print("Less Than:", a < b)
+print("Greater Than or Equal:", a >= b)
+print("Less Than or Equal:", a <= b)
+
+# 3. Logical Operators
+
+x = True
+y = False
+
+print("AND:", x and y)
+print("OR:", x or y)
+print("NOT:", not x)
+
+# 4. Assignment Operators
+
+num = 10
+num += 5
+print("After += 5:", num)
+
+num -= 3
+print("After -= 3:", num)
+
+num *= 2
+print("After *= 2:", num)
+
+num //= 4
+print("After //= 4:", num)
+
+num %= 3
+print("After %= 3:", num)
+
+# 5. Bitwise Operators(Important)
+
+a = 5
+b = 3
+
+print("Bitwise AND:", a & b)
+print("Bitwise OR:", a | b)
+print("Bitwise XOR:", a ^ b)
+print("Bitwise NOT:", ~a)
+print("Left Shift:", a << 1)
+print("Right Shift:", a >> 1)
+
+formula:
+left shift=
+right shift=
+
+# 6. Membership Operators
+
+numbers = [10, 20, 30, 40]
+
+print("20 in numbers:", 20 in numbers)
+print("50 not in numbers:", 50 not in numbers)
+
+
+# 7. Identity Operators
+
+list1 = [1, 2, 3]
+list2 = list1
+list3 = [1, 2, 3]
+
+print("list1 is list2:", list1 is list2)
+print("list1 is list3:", list1 is list3)
+print("list1 == list3:", list1 == list3)
+
